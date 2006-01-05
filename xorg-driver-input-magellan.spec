@@ -1,12 +1,12 @@
 Summary:	X.org input driver for Magellan devices
 Summary(pl):	Sterownik wej¶ciowy X.org dla urz±dzeñ Magellan
 Name:		xorg-driver-input-magellan
-Version:	1.0.0.3
+Version:	1.0.0.5
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/driver/xf86-input-magellan-%{version}.tar.bz2
-# Source0-md5:	23f8f90bfb3c83dcca2cd5a617f16000
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-input-magellan-%{version}.tar.bz2
+# Source0-md5:	5f46f47c130f5c756167caf4c975cc73
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -51,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_libdir}/xorg/modules/input/magellan_drv.so
 #%{_mandir}/man4/magellan.4*
