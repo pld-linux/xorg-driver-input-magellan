@@ -1,5 +1,5 @@
 Summary:	X.org input driver for Magellan devices
-Summary(pl.UTF-8):   Sterownik wejściowy X.org dla urządzeń Magellan
+Summary(pl.UTF-8):	Sterownik wejściowy X.org dla urządzeń Magellan
 Name:		xorg-driver-input-magellan
 Version:	1.1.0
 Release:	0.1
